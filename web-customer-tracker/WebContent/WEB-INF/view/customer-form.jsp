@@ -1,4 +1,4 @@
-<%@ taglib prefix="form" uri="http://www.springframework.org/tags/form" %>
+ <%@ taglib prefix="form" uri="http://www.springframework.org/tags/form" %>
 
 <!DOCTYPE html>
 <html>
@@ -26,7 +26,8 @@
 	<div id="container">
 		<h3>Save Customer</h3>
 	
-		<form:form action="saveCustomer" modelAttribute="customer" method="POST">
+		<form:form action="saveCustomer" modelAttribute="customer" method="POST">	
+			<form:hidden path="id" />
 		
 			<table>
 				<tbody>
