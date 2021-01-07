@@ -97,7 +97,7 @@
 
 	<build>
 
-		<finalName>spring-crm-rest</finalName>
+		<finalName>crm-spring-rest</finalName>
 
 		<plugins>
 
